@@ -66,9 +66,11 @@ Steps to create the virtual env are listed below
    
    Python 3.6 env.
    
-4) Once completed. Type: activate <environment_name> for windows users
-                         
-						 source activate <environment_name> for linux users
+4) Once completed. Type: 
+		
+		activate <environment_name> for windows users
+		
+		source activate <environment_name> for linux users
    
    Ex : activate conda_env_Deep_Learning
       
