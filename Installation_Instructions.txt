@@ -1,0 +1,130 @@
+Below are the steps to setup Keras environment
+
+Download anaconda from the following link
+
+1) For windows - https://repo.continuum.io/archive/Anaconda3-4.4.0-Windows-x86_64.exe
+   
+   For linux   - https://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64.sh 
+   
+   For Mac     - https://repo.continuum.io/archive/Anaconda3-4.4.0-MacOSX-x86_64.pkg
+   
+2) Installing will not be problem for most of you I guess ;)
+   
+   For Linux installation -
+   
+   Make sure you add the path in ~.bashrc file, The installer will ask to add, please select yes.
+
+3) We need to setup a virtual environment inside anaconda for DeepLearning.
+
+4) There are 2 ways (as per my knowledge) of creating virtual environments inside anaconda
+   
+   a) GUI way using anaconda navigator
+   
+   b) CLI way
+   
+Note: Creating environment will help you in case you screw something, otherwise you will have
+   
+   to install anaconda again.
+   
+I can only provide the CLI way for windows and Linux machine as I don't have MAC machine.
+
+I don't prefer GUI :D
+
+Steps to create the virtual env are listed below
+
+1) press Windows key and search for anaconda prompt, run anaconda prompt.
+   
+   On Linux machine Open Terminal ;)
+   
+2) Type conda create -n <environment_name> python=3.6
+   
+   Ex : conda create -n conda_env_Deep_Learning python=3.6
+   
+   You will see a prompt like shown below. Proceed by pressing y then enter.
+   
+   The following NEW packages will be INSTALLED:
+
+    pip:            9.0.1-py36_1
+    
+	python:         3.6.1-2
+    
+	setuptools:     27.2.0-py36_1
+    
+	vs2015_runtime: 14.0.25420-0
+    
+	wheel:          0.29.0-py36_0
+
+	
+	Proceed ([y]/n)? y
+	
+	On Linux machine you might get some more packages. Just proceed.
+
+3) Step 2 will take time to collect the needed packages to create an environment and will setup
+   
+   Python 3.6 env.
+   
+4) Once completed. Type: 
+		
+		activate <environment_name> for windows users
+		
+		source activate <environment_name> for linux users
+   
+   Ex : activate conda_env_Deep_Learning
+      
+	  : source activate conda_env_Deep_Learning
+   
+5) You will get a prompt as shown below:
+   
+   (conda_env_Deep_Learning) C:\
+   
+   On Linux machine similar prompt will appear
+   
+6) This sets up your environment
+
+Now its time to install some packages using pip and conda
+
+1) Install tensorflow using the commands
+   
+   pip install tensorflow
+   
+2) You will need some more packages for handling the data and scientific calculations
+   
+   a) conda install scipy - includes installation of mkl (Large in bytesize: download over Wifi)
+   
+   b) conda install numpy 
+   
+   c) conda install pandas
+   
+   d) conda install matplotlib
+   
+   e) conda install notebook - Its an easy to use IDE. 
+                               I will be sharing all the sample codes in notebook format.
+
+3) Next install Theano using
+   
+   conda install theano - If you want to use theano as backend of Keras
+   
+   The above command will also install the C/C++ dependencies and compiler which is required by theano.
+
+4) Then install Keras using 
+   
+   pip install keras
+   
+   Keras is wrapper around DeepLearning Libraries like Tensorflow (Google's) , 
+   
+   Theano(not sure ) and CNTK (Microsoft's Deep Learning Library)
+
+And!! We are done...
+
+type python on the console and press enter
+
+You will get a prompt as below:
+
+">>>" import keras
+
+Using Tensorflow backend
+
+">>>" 
+
+If you see this we all are good to go.
+
