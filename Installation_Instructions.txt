@@ -120,11 +120,11 @@ type python on the console and press enter
 
 You will get a prompt as below:
 
-">>>" import keras
+>>> import keras
 
 Using Tensorflow backend
 
-">>>" 
+>>>
 
 If you see this we all are good to go.
 
