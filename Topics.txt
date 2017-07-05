@@ -1,19 +1,23 @@
 1) Types of Neural Networks
-	1) Artificial Neural Network ANN - Also called MultiLayer Perceptron MLP
-	2) Convolution Neural Network CNN - For Images
-	3) Recurring Neural Network RNN - For Time Series Like Stock Prices
-	4) Recursive Neural Tensor Network - To analyze hierarchical structured data
+	- Artificial Neural Network ANN - Also called MultiLayer Perceptron MLP
+	- Convolution Neural Network CNN - For Images
+	- Recurring Neural Network RNN - For Time Series Like Stock Prices
+	- Recursive Neural Tensor Network - To analyze hierarchical structured data
 
 2) Libraries
-	1) Tensorflow
-	2) Theano
-	3) CNTK
-	4) Torch
-	5) Caffe
+	Research Oriented
+	- Tensorflow
+	- Theano
+	
+	Commercial Grade
+	- CNTK
+	- Torch - C/Lua
+	- Caffe - C++ Library
+	- DeepLearning4j - Java Library
 	
 3) Platforms for DeepLearning
-	1) H20
-	2) Dato GraphLab	
+	- H20
+	- Dato GraphLab	
 
 4) Initializers - Used to initialize the weights in some manner
 	Well Known
