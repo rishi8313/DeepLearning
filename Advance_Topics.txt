@@ -1,0 +1,51 @@
+1) Types of Neural Networks
+	1) Restricted Boltzmann Machine
+	2) Autoencoders
+	3) Generative Models
+	4) Self Organizing Maps
+
+	
+2) Initializers - Used to initialize the weights in some manner
+	Other
+		- TruncatedNormal
+		- VarianceScaling
+		- Orthogonal
+		- Identity
+		- lecun_uniform
+		- glorot_normal
+		- glorot_uniform
+		- he_normal
+		- lecun_normal
+		- he_uniform
+		- custom initializers
+		
+3) Activation Functions
+	Other Activation Functions:
+		- elu
+		- selu
+		- softplus
+		- softsign
+		- hard_sigmoid
+		- PReLU
+		- LeakyReLU
+
+4) Optimizer 
+	Advance:
+		- RMS prop (Root mean square)
+		- Adagrad
+		- Adadelta
+		- Adam
+		- Adamax
+		- Nadam
+		- TFOptimizer
+		
+5) Losses
+	Basic: 
+		- squared_hinge
+		- hinge
+		- categorical_hinge
+		- logcosh
+		- sparse_categorical_crossentropy
+		- kullback_leibler_divergence
+		- poisson
+		- cosine_proximity
