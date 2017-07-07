@@ -7,6 +7,13 @@ Will Starting with MLP/ANN
    - linear activation function
    - accuracy as the metrics
 
+Sometimes, the example given won't work, as the training data i.e. only 4 rows are available for training. Whereas in real dataset, you will get 1000's or may be millions of rows.
+
+This starting exercise is only for making us, used to create a Sequential model using Keras.
+
+Explanation of ANN starts from here
+-----------------------------------
+
 Basically, Think of input as a combination of different features.
 
 Below example is overly simplified.
