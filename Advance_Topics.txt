@@ -40,7 +40,7 @@
 		- TFOptimizer
 		
 5) Losses
-	Basic: 
+	Advance: 
 		- squared_hinge
 		- hinge
 		- categorical_hinge
