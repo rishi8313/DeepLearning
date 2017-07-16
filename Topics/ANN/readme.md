@@ -11,8 +11,7 @@ Sometimes, the example given won't work, as the training data i.e. only 4 rows a
 
 This starting exercise is only for making us, used to create a Sequential model using Keras.
 
-Explanation of ANN starts from here
------------------------------------
+# Explanation of ANN starts from here
 
 Basically, Think of input as a combination of different features.
 
