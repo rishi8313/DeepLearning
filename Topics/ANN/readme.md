@@ -53,6 +53,6 @@ our output is nothing but a y' (y-hat, y-dash, can be called differently) which 
   
   f(z) can be sigmoid, tanh, relu, linear and many others.
   
-Details are given in the [Deep Learning Stanford] (http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/)
+Details are given in the [Stanford Deep Learning](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/) link
   
 Challenge - We will discuss why XOR function is not learnable using above perceptron.
