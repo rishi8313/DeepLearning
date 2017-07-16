@@ -11,7 +11,7 @@ Sometimes, the example given won't work, as the training data i.e. only 4 rows a
 
 This starting exercise is only for making us, used to create a Sequential model using Keras.
 
-# Explanation of ANN starts from here
+### Explanation of ANN starts from here
 
 Basically, Think of input as a combination of different features.
 
@@ -53,8 +53,6 @@ our output is nothing but a y' (y-hat, y-dash, can be called differently) which 
   
   f(z) can be sigmoid, tanh, relu, linear and many others.
   
-Details are given in the below mentioned link.
-  
-http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/
+Details are given in the [Deep Learning Stanford] (http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/)
   
 Challenge - We will discuss why XOR function is not learnable using above perceptron.
